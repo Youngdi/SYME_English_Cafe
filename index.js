@@ -14,6 +14,7 @@ app.use('/webhook', line.middleware(config))
 app.use(bodyParser.json())
 
 app.use((err, req, res, next) => {
+  
   if (err instanceof SignatureValidationFailed) {
     res.status(401).send(err.signature)
     return
