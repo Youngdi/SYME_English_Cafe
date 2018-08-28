@@ -1,21 +1,22 @@
 {
-  "name": "node-line-bot-api",
-  "version": "0.1.4",
-  "description": "Node client for LINE Bot API",
+  "name": "SYME ENGLISH CAFE",
+  "version": "0.0.1",
+  "description": "SYME LINE Bot",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tejitak/node-line-bot-api.git"
+    "url": "https://github.com/Youngdi/SYME_English_Cafe"
   },
-  "author": "tejitak",
-  "license": "ISC",
+  "author": "Bill YoungDi",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tejitak/node-line-bot-api/issues"
+    "url": "hhttps://github.com/Youngdi/SYME_English_Cafe/issues"
   },
-  "homepage": "https://github.com/tejitak/node-line-bot-api#readme",
+  "homepage": "https://github.com/Youngdi/SYME_English_Cafei#readme",
   "dependencies": {
     "@line/bot-sdk": "^6.1.0",
     "sm2-plus": "^1.0.5",
